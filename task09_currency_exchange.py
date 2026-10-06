@@ -1,6 +1,6 @@
 amount_usd=float(input("Enter Amount in USD: "))
 
-exchange_rate=150
+exchange_rate=float(input("Enter Exchage Rate: "))
 amount_etb=exchange_rate*amount_usd
 print("\n")
 print("==========================")
